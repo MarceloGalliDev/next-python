@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from teacher.views import ProfessorAPIView
+from teacher.views import ProfessorAPIView, CadastrarAulaAPIView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('professores/', ProfessorAPIView.as_view()),
+    path('professores/<int:id>/aulas', CadastrarAulaAPIView.as_view()),
 ]
+# <int:id> é para indicar uma variável na url em python, e o id tem que ser o mesmo que a indicada no views

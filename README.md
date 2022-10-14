@@ -75,13 +75,17 @@
             - python manage.py makemigrations = cria o migration
             - python manage.py migrate = inclui no banco de dados
     
-    -SQLite3
+    - SQLite3
         - no SQLite3 temos uma sequencia de tabelas onde o primeiro nome é o nome da app e o segundo é a tabela
         - para salvar dados no banco usamos o comando python manage.py shell
             - incluimos a importação = from teacher.models import Professor
             - incluimos uma instância = professor = Professor(nome="Marcelo Galli", valor_hora=95.80, descricao="professor de programação", foto="https://github.com/MarceloGalliDev.png")
             - podemos utilizar professor.name para verificar se deu certo
             - usamos professor.save() para salvar no banco de dados
+    
+    - CORS
+        - Bloqueio de segurança feito pelo navegador, para requisições de servidores diferentes.
+
         
 > Imsonia 
     - Para realizar teste de API
