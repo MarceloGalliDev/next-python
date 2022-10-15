@@ -41,6 +41,13 @@
 > Criando responsividade para outros tamanho de tela
     - Criando BreakPoint
 
+> React hook
+    - Uso do UseState()
+        - useState por padrão sempre retorna um array
+
+> Axios
+    - npm install axios@0.27.2
+
 
 >> Back-End
 > Django
