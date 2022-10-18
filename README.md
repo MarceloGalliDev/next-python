@@ -5,7 +5,7 @@
 > Habilitar a execução de scripts no Windows
     - Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
     
-> Criar o projeto
+> Criar o projeto NEXT
     - npx create-next-app . --ts
 
 > Framework
